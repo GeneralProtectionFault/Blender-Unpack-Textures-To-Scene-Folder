@@ -1,0 +1,19 @@
+schema_version = "1.0.0"
+
+id = "unpack_textures_to_scene_folder"
+name = "Unpack Textures to Scene Folder"
+tagline = "Automatically unpack scene textures to a folder named after the .blend file"
+version = "1.0.0"
+description = "Unpacks all textures to a folder named after the scene file with '_textures' appended, making paths relative. Adds operator to File > External Data menu."
+maintainer = "GeneralProtectionFault"
+type = "add-on"
+support_level = "COMMUNITY"
+
+blender_version_min = "4.0.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
+permissions = []
+tags = ["import-export", "texture", "utility"]
